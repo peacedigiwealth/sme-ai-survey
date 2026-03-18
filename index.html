@@ -477,10 +477,10 @@
 </head>
 <body>
 
-<div class="topbar">Academic Research Survey &nbsp;|&nbsp; <span>Strictly Confidential</span> &nbsp;|&nbsp; Lagos State SME Study 2024/2025</div>
+<div class="topbar">Academic Research Survey &nbsp;|&nbsp; <span>Strictly Confidential</span> &nbsp;|&nbsp; Lagos State SME Study 2025/2026</div>
 
 <header>
-  <div class="header-kicker">Faculty of Management Sciences</div>
+  <div class="header-kicker">Faculty of Natural Sciences</div>
   <h1>Artificial Intelligence Capability &amp; Organizational Performance</h1>
   <div class="progress-wrap" id="progressWrap" style="margin-top:10px;">
     <div class="progress-bar" id="progressBar" style="width:0%"></div>
@@ -774,7 +774,7 @@
           Response ID: <strong id="responseIdDisplay"></strong><br>
           <span id="timestampDisplay" style="font-size:12px;"></span>
         </div>
-        <p style="font-size:13px; color:var(--text-light); margin-bottom:20px;">For research inquiries, please contact the principal researcher through your institution's Faculty of Management Sciences.</p>
+        <p style="font-size:13px; color:var(--text-light); margin-bottom:20px;">For research inquiries, please contact the principal researcher through your institution's Faculty of Natural Sciences.</p>
       </div>
     </div>
   </div>
@@ -810,7 +810,7 @@
 </div>
 
 <footer>
-  &copy; 2024/2025 Academic Research Survey &nbsp;|&nbsp;
+  &copy; 2025/2026 Academic Research Survey &nbsp;|&nbsp;
   <a onclick="showAdminLogin()" style="cursor:pointer;">Admin Access</a>
 </footer>
 
@@ -852,44 +852,44 @@ const ADMIN_PASS = 'research2024';
 
 const questions = {
   AIINF: [
-    { id:'AIINF1', text:'Our organization has adequate digital infrastructure to support AI applications.' },
-    { id:'AIINF2', text:'Our firm uses reliable computing systems for data processing.' },
-    { id:'AIINF3', text:'Our organization has access to cloud-based technologies that support AI tools.' },
-    { id:'AIINF4', text:'Our firm maintains digital systems capable of handling large volumes of data.' },
-    { id:'AIINF5', text:'Our technological resources are sufficient for implementing AI solutions.' },
-    { id:'AIINF6', text:'Our organization has software systems that support intelligent automation.' },
+    { id:'AIINF1', text:'The digital systems used in this organization are reliable for daily operations.' },
+    { id:'AIINF2', text:'The organization has adequate technological resources to support digital or AI-related activities.' },
+    { id:'AIINF3', text:'Cloud-based or online systems are available and accessible for work processes.' },
+    { id:'AIINF4', text:'The organization\'s systems can effectively handle the volume of data required for operations.' },
+    { id:'AIINF5', text:'Available technologies support the automation of routine tasks.' },
+    { id:'AIINF6', text:'The organization\'s technology infrastructure supports efficient work performance.' },
   ],
   AIHC: [
-    { id:'AIHC1', text:'Employees in our organization possess sufficient digital skills to work with AI technologies.' },
-    { id:'AIHC2', text:'Our staff can effectively use data analytics tools.' },
-    { id:'AIHC3', text:'Our organization provides training on digital and AI-related technologies.' },
-    { id:'AIHC4', text:'Employees understand how to interpret technology-generated insights.' },
-    { id:'AIHC5', text:'Our workforce has the technical knowledge required for AI adoption.' },
-    { id:'AIHC6', text:'Our organization encourages continuous learning in digital skills.' },
+    { id:'AIHC1', text:'I have the necessary digital skills required to perform my job effectively.' },
+    { id:'AIHC2', text:'Employees in this organization are capable of using digital tools efficiently.' },
+    { id:'AIHC3', text:'The organization provides adequate training on digital technologies.' },
+    { id:'AIHC4', text:'Employees are able to interpret and use insights from digital systems.' },
+    { id:'AIHC5', text:'Staff possess the technical knowledge needed to adopt new technologies.' },
+    { id:'AIHC6', text:'Continuous learning and development in digital skills is encouraged in this organization.' },
   ],
   MNSA: [
-    { id:'MNSA1', text:'Top management supports the adoption of AI technologies.' },
-    { id:'MNSA2', text:'Leadership actively promotes digital transformation initiatives.' },
-    { id:'MNSA3', text:'Management allocates financial resources toward technology adoption.' },
-    { id:'MNSA4', text:'Our organization has clear strategies for AI implementation.' },
-    { id:'MNSA5', text:'Management encourages innovation through digital technologies.' },
-    { id:'MNSA6', text:'Senior leadership is committed to improving technological capabilities.' },
+    { id:'MNSA1', text:'Management actively supports the use of digital technologies in this organization.' },
+    { id:'MNSA2', text:'Leadership encourages employees to adopt and use new technologies.' },
+    { id:'MNSA3', text:'Adequate support is provided when new digital tools are introduced.' },
+    { id:'MNSA4', text:'There is a clear organizational direction regarding the use of technology.' },
+    { id:'MNSA5', text:'Innovation through digital technologies is encouraged across all levels of the organization.' },
+    { id:'MNSA6', text:'Management demonstrates commitment to improving technological capabilities.' },
   ],
   DTR: [
-    { id:'DTR1', text:'Our organization stores business data in digital format.' },
-    { id:'DTR2', text:'Our firm maintains structured and organized data systems.' },
-    { id:'DTR3', text:'Data in our organization is easily accessible for analysis.' },
-    { id:'DTR4', text:'Our organization ensures data accuracy and consistency.' },
-    { id:'DTR5', text:'We have systems in place for managing and protecting business data.' },
-    { id:'DTR6', text:'Our data is suitable for use in AI and analytical processes.' },
+    { id:'DTR1', text:'Data required for work processes is stored in digital formats.' },
+    { id:'DTR2', text:'Organizational data is well organized and structured.' },
+    { id:'DTR3', text:'Data is easily accessible when needed for work tasks.' },
+    { id:'DTR4', text:'The organization ensures the accuracy and reliability of its data.' },
+    { id:'DTR5', text:'Systems are in place to manage and protect organizational data.' },
+    { id:'DTR6', text:'Available data can be effectively used for analysis and decision-making.' },
   ],
   OP: [
-    { id:'OP1', text:'The use of digital technologies has improved our productivity.' },
-    { id:'OP2', text:'Our operational processes have become more efficient due to technology adoption.' },
-    { id:'OP3', text:'Technology adoption has enhanced our decision-making quality.' },
-    { id:'OP4', text:'Our organization has experienced improved innovation output.' },
-    { id:'OP5', text:'Revenue growth has improved due to technological advancements.' },
-    { id:'OP6', text:'Overall organizational performance has improved because of digital tools.' },
+    { id:'OP1', text:'The use of digital technologies has improved productivity in this organization.' },
+    { id:'OP2', text:'Work processes have become more efficient due to the use of technology.' },
+    { id:'OP3', text:'Decision-making has improved with the use of digital tools.' },
+    { id:'OP4', text:'The organization has become more innovative through technology adoption.' },
+    { id:'OP5', text:'Business performance (e.g., growth, output) has improved due to digital technologies.' },
+    { id:'OP6', text:'Overall organizational performance has improved as a result of digital systems.' },
   ],
 };
 
